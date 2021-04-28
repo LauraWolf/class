@@ -2,6 +2,8 @@ package sample;
 
 import sample.model.Livro;
 
+/** Class Main */
+
 public class Main {
 
     public static void main(String[] args) {

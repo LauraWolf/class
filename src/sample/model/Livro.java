@@ -1,12 +1,15 @@
 package sample.model;
 
+/** Classes */
+
 public class Livro {
-    //atributos
+    /** atributos */
     private String titulo;
     private String autor;
     private String editora;
     private int ano;
 
+    /** Getter e Setter */
 
     public String getTitulo() {
         return titulo;
@@ -39,6 +42,8 @@ public class Livro {
     public void setAno(int ano) {
         this.ano = ano;
     }
+
+    /** ToString */
 
     @Override
     public String toString() {
